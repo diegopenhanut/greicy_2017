@@ -1,0 +1,62 @@
+,,,,,,,,,,,,,,,,,,,
+MS/SAS/DAB/Núcleo de Tecnologia da Informação - NTI,,,,,,,,,,,,,,,,,,,
+"Relatório do Consumo Alimentar por período, fase do ciclo da vida (de 2008 a 2014).",,,,,,,,,,,,,,,,,,,
+Abrangência: Região (TODOS) - Estado (TODOS),,,,,,,,,,,,,,,,,,,
+Competência: Ano: 2010 - Mês: TODOS,,,,,,,,,,,,,,,,,,,
+Faixa Etária: Gestantes (Adolescentes e Adultas),,,,,,,,,,,,,,,,,,,
+Sexo: TODOS,,,,,,,,,,,,,,,,,,,
+Raça e Cor: TODOS,,,,,,,,,,,,,,,,,,,
+Povo e Comunidade: TODOS,,,,,,,,,,,,,,,,,,,
+Escolaridade: TODOS,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Abrangência Estadual,,,FREQUÊNCIA DE CONSUMO - Refrigerante,,,,,,,,,,,,,,,,Total de indivíduos
+Região,Código UF,UF,,,,,,,,,,,,,,,,,avaliados
+,,,Não consumiu nos últimos sete dias,,1 dia nos últimos sete dias,,2 dias nos últimos sete dias,,3 dias nos últimos sete dias,,4 dias nos últimos sete dias,,5 dias nos últimos sete dias,,6 dias nos últimos sete dias,,Todos os últimos sete dias,,
+,,,n,%,n,%,n,%,n,%,n,%,n,%,n,%,n,%,
+CENTRO-OESTE,53,DF,97,32%,67,22%,49,16%,29,9%,22,7%,6,2%,12,4%,25,8%,307
+CENTRO-OESTE,52,GO,141,23%,108,18%,80,13%,87,14%,48,8%,49,8%,31,5%,67,11%,611
+CENTRO-OESTE,50,MS,209,28%,150,20%,126,17%,80,11%,44,6%,21,3%,18,2%,99,13%,747
+CENTRO-OESTE,51,MT,525,27%,379,19%,265,13%,212,11%,99,5%,77,4%,64,3%,346,18%,1967
+TOTAL REGIÃO CENTRO-OESTE,,,972,27%,704,19%,520,14%,408,11%,213,6%,153,4%,125,3%,537,15%,3632
+NORDESTE,27,AL,320,50%,133,21%,70,11%,44,7%,12,2%,7,1%,11,2%,42,7%,639
+NORDESTE,29,BA,607,37%,416,25%,257,16%,134,8%,61,4%,45,3%,32,2%,93,6%,1645
+NORDESTE,23,CE,194,42%,92,20%,51,11%,33,7%,16,4%,14,3%,16,4%,41,9%,457
+NORDESTE,21,MA,30,68%,9,20%,3,7%,0,-,0,-,1,2%,0,-,1,2%,44
+NORDESTE,25,PB,100,33%,116,38%,42,14%,19,6%,7,2%,4,1%,2,1%,12,4%,302
+NORDESTE,26,PE,30,39%,18,24%,16,21%,4,5%,4,5%,0,-,0,-,4,5%,76
+NORDESTE,22,PI,125,37%,76,23%,61,18%,25,7%,7,2%,6,2%,7,2%,29,9%,336
+NORDESTE,24,RN,12,50%,6,25%,1,4%,3,13%,0,-,1,4%,0,-,1,4%,24
+NORDESTE,28,SE,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0
+TOTAL REGIÃO NORDESTE,,,1418,40%,866,25%,501,14%,262,7%,107,3%,78,2%,68,2%,223,6%,3523
+NORTE,12,AC,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0
+NORTE,13,AM,80,25%,51,16%,57,18%,59,18%,29,9%,29,9%,9,3%,10,3%,324
+NORTE,16,AP,5,83%,0,-,1,17%,0,-,0,-,0,-,0,-,0,-,6
+NORTE,15,PA,914,36%,502,20%,379,15%,271,11%,109,4%,75,3%,58,2%,209,8%,2517
+NORTE,11,RO,1,50%,0,-,0,-,0,-,0,-,0,-,1,50%,0,-,2
+NORTE,14,RR,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0
+NORTE,17,TO,8,14%,7,13%,13,23%,6,11%,4,7%,2,4%,6,11%,10,18%,56
+TOTAL REGIÃO NORTE,,,1008,35%,560,19%,450,15%,336,12%,142,5%,106,4%,74,3%,229,8%,2905
+SUDESTE,32,ES,25,38%,13,20%,6,9%,3,5%,1,2%,2,3%,2,3%,13,20%,65
+SUDESTE,31,MG,786,19%,827,20%,931,23%,559,14%,352,9%,147,4%,94,2%,421,10%,4117
+SUDESTE,33,RJ,193,24%,94,12%,123,16%,64,8%,38,5%,31,4%,37,5%,212,27%,792
+SUDESTE,35,SP,1144,23%,839,17%,970,19%,455,9%,225,4%,192,4%,127,3%,1109,22%,5061
+TOTAL REGIÃO SUDESTE,,,2148,21%,1773,18%,2030,20%,1081,11%,616,6%,372,4%,260,3%,1755,17%,10035
+SUL,41,PR,282,26%,247,23%,134,12%,110,10%,51,5%,33,3%,36,3%,192,18%,1085
+SUL,43,RS,352,33%,259,24%,130,12%,81,8%,28,3%,32,3%,22,2%,170,16%,1074
+SUL,42,SC,299,38%,311,40%,90,12%,22,3%,14,2%,11,1%,1,0%,30,4%,778
+TOTAL REGIÃO SUL,,,933,32%,817,28%,354,12%,213,7%,93,3%,76,3%,59,2%,392,13%,2937
+TOTAL BRASIL,,,6479,28%,4720,20%,3855,17%,2300,10%,1171,5%,785,3%,586,3%,3136,14%,23032
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+TOTAL ESTADO: Corresponde aos dados dos municípios em cada estado.,,,,,,,,,,,,,,,,,,,
+TOTAL REGIÃO: Corresponde aos dados dos municípios em cada região.,,,,,,,,,,,,,,,,,,,
+TOTAL BRASIL: Corresponde aos dados dos municípios no Brasil.,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Fonte: MS/SAS/DAB/Núcleo de Tecnologia da Informação - NTI,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Atenção: Todos os campos selecionados excede o limite de impressão no papel A4.,,,,,,,,,,,,,,,,,,,
+Para imprimir configure a página:,,,,,,,,,,,,,,,,,,,
+1) Formato paisagem;,,,,,,,,,,,,,,,,,,,
+"2) Margens (esquerda, direita, superior, inferior): 1, 1, 1, 1.",,,,,,,,,,,,,,,,,,,

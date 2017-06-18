@@ -1,0 +1,62 @@
+,,,,,,,,,,,,,,,,,,,
+MS/SAS/DAB/Núcleo de Tecnologia da Informação - NTI,,,,,,,,,,,,,,,,,,,
+"Relatório do Consumo Alimentar por período, fase do ciclo da vida (de 2008 a 2014).",,,,,,,,,,,,,,,,,,,
+Abrangência: Região (TODOS) - Estado (TODOS),,,,,,,,,,,,,,,,,,,
+Competência: Ano: 2012 - Mês: TODOS,,,,,,,,,,,,,,,,,,,
+Faixa Etária: Gestantes (Adolescentes e Adultas),,,,,,,,,,,,,,,,,,,
+Sexo: TODOS,,,,,,,,,,,,,,,,,,,
+Raça e Cor: TODOS,,,,,,,,,,,,,,,,,,,
+Povo e Comunidade: TODOS,,,,,,,,,,,,,,,,,,,
+Escolaridade: TODOS,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Abrangência Estadual,,,"FREQUÊNCIA DE CONSUMO - Batata frita, batata de pacote e salgados fritos",,,,,,,,,,,,,,,,Total de indivíduos
+Região,Código UF,UF,,,,,,,,,,,,,,,,,avaliados
+,,,Não consumiu nos últimos sete dias,,1 dia nos últimos sete dias,,2 dias nos últimos sete dias,,3 dias nos últimos sete dias,,4 dias nos últimos sete dias,,5 dias nos últimos sete dias,,6 dias nos últimos sete dias,,Todos os últimos sete dias,,
+,,,n,%,n,%,n,%,n,%,n,%,n,%,n,%,n,%,
+CENTRO-OESTE,53,DF,853,49%,415,24%,222,13%,92,5%,34,2%,33,2%,26,1%,82,5%,1757
+CENTRO-OESTE,52,GO,740,46%,340,21%,176,11%,92,6%,76,5%,71,4%,27,2%,75,5%,1597
+CENTRO-OESTE,50,MS,1062,41%,590,23%,293,11%,175,7%,133,5%,108,4%,61,2%,139,5%,2561
+CENTRO-OESTE,51,MT,1513,46%,702,22%,390,12%,241,7%,96,3%,81,2%,47,1%,184,6%,3254
+TOTAL REGIÃO CENTRO-OESTE,,,4168,45%,2047,22%,1081,12%,600,7%,339,4%,293,3%,161,2%,480,5%,9169
+NORDESTE,27,AL,1125,56%,445,22%,189,9%,100,5%,50,3%,26,1%,13,1%,49,2%,1997
+NORDESTE,29,BA,2178,61%,688,19%,315,9%,137,4%,68,2%,39,1%,32,1%,90,3%,3547
+NORDESTE,23,CE,1866,59%,582,18%,284,9%,169,5%,72,2%,48,2%,27,1%,106,3%,3154
+NORDESTE,21,MA,770,69%,136,12%,114,10%,44,4%,13,1%,9,1%,6,1%,32,3%,1124
+NORDESTE,25,PB,349,38%,367,40%,89,10%,40,4%,18,2%,9,1%,4,0%,34,4%,910
+NORDESTE,26,PE,440,60%,146,20%,72,10%,35,5%,10,1%,8,1%,7,1%,13,2%,731
+NORDESTE,22,PI,476,66%,106,15%,46,6%,36,5%,12,2%,14,2%,8,1%,25,3%,723
+NORDESTE,24,RN,138,61%,38,17%,18,8%,12,5%,5,2%,3,1%,3,1%,9,4%,226
+NORDESTE,28,SE,1,100%,0,-,0,-,0,-,0,-,0,-,0,-,0,-,1
+TOTAL REGIÃO NORDESTE,,,7343,59%,2508,20%,1127,9%,573,5%,248,2%,156,1%,100,1%,358,3%,12413
+NORTE,12,AC,0,-,0,-,1,33%,2,67%,0,-,0,-,0,-,0,-,3
+NORTE,13,AM,138,43%,73,23%,36,11%,31,10%,11,3%,4,1%,6,2%,22,7%,321
+NORTE,16,AP,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0
+NORTE,15,PA,2253,54%,773,18%,477,11%,285,7%,126,3%,65,2%,45,1%,177,4%,4201
+NORTE,11,RO,2,100%,0,-,0,-,0,-,0,-,0,-,0,-,0,-,2
+NORTE,14,RR,9,53%,2,12%,5,29%,0,-,0,-,0,-,0,-,1,6%,17
+NORTE,17,TO,342,52%,118,18%,69,10%,50,8%,22,3%,13,2%,13,2%,35,5%,662
+TOTAL REGIÃO NORTE,,,2744,53%,966,19%,588,11%,368,7%,159,3%,82,2%,64,1%,235,5%,5206
+SUDESTE,32,ES,148,41%,88,24%,55,15%,29,8%,9,2%,7,2%,5,1%,23,6%,364
+SUDESTE,31,MG,2258,35%,1541,24%,1013,16%,616,10%,327,5%,215,3%,123,2%,326,5%,6419
+SUDESTE,33,RJ,606,34%,404,23%,290,16%,162,9%,78,4%,52,3%,34,2%,134,8%,1760
+SUDESTE,35,SP,4189,41%,2542,25%,1536,15%,714,7%,323,3%,217,2%,125,1%,624,6%,10270
+TOTAL REGIÃO SUDESTE,,,7201,38%,4575,24%,2894,15%,1521,8%,737,4%,491,3%,287,2%,1107,6%,18813
+SUL,41,PR,940,42%,537,24%,344,15%,207,9%,59,3%,39,2%,29,1%,90,4%,2245
+SUL,43,RS,295,40%,200,27%,111,15%,50,7%,18,2%,13,2%,9,1%,37,5%,733
+SUL,42,SC,240,25%,298,31%,244,26%,83,9%,34,4%,9,1%,14,1%,32,3%,954
+TOTAL REGIÃO SUL,,,1475,38%,1035,26%,699,18%,340,9%,111,3%,61,2%,52,1%,159,4%,3932
+TOTAL BRASIL,,,22931,46%,11131,22%,6389,13%,3402,7%,1594,3%,1083,2%,664,1%,2339,5%,49533
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+TOTAL ESTADO: Corresponde aos dados dos municípios em cada estado.,,,,,,,,,,,,,,,,,,,
+TOTAL REGIÃO: Corresponde aos dados dos municípios em cada região.,,,,,,,,,,,,,,,,,,,
+TOTAL BRASIL: Corresponde aos dados dos municípios no Brasil.,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Fonte: MS/SAS/DAB/Núcleo de Tecnologia da Informação - NTI,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Atenção: Todos os campos selecionados excede o limite de impressão no papel A4.,,,,,,,,,,,,,,,,,,,
+Para imprimir configure a página:,,,,,,,,,,,,,,,,,,,
+1) Formato paisagem;,,,,,,,,,,,,,,,,,,,
+"2) Margens (esquerda, direita, superior, inferior): 1, 1, 1, 1.",,,,,,,,,,,,,,,,,,,

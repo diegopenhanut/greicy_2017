@@ -1,0 +1,62 @@
+,,,,,,,,,,,,,,,,,,,
+MS/SAS/DAB/Núcleo de Tecnologia da Informação - NTI,,,,,,,,,,,,,,,,,,,
+"Relatório do Consumo Alimentar por período, fase do ciclo da vida (de 2008 a 2014).",,,,,,,,,,,,,,,,,,,
+Abrangência: Região (TODOS) - Estado (TODOS),,,,,,,,,,,,,,,,,,,
+Competência: Ano: 2014 - Mês: TODOS,,,,,,,,,,,,,,,,,,,
+Faixa Etária: Gestantes (Adolescentes e Adultas),,,,,,,,,,,,,,,,,,,
+Sexo: TODOS,,,,,,,,,,,,,,,,,,,
+Raça e Cor: TODOS,,,,,,,,,,,,,,,,,,,
+Povo e Comunidade: TODOS,,,,,,,,,,,,,,,,,,,
+Escolaridade: TODOS,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Abrangência Estadual,,,FREQUÊNCIA DE CONSUMO - Feijão,,,,,,,,,,,,,,,,Total de indivíduos
+Região,Código UF,UF,,,,,,,,,,,,,,,,,avaliados
+,,,Não consumiu nos últimos sete dias,,1 dia nos últimos sete dias,,2 dias nos últimos sete dias,,3 dias nos últimos sete dias,,4 dias nos últimos sete dias,,5 dias nos últimos sete dias,,6 dias nos últimos sete dias,,Todos os últimos sete dias,,
+,,,n,%,n,%,n,%,n,%,n,%,n,%,n,%,n,%,
+CENTRO-OESTE,53,DF,86,8%,52,5%,66,6%,65,6%,54,5%,48,5%,30,3%,633,61%,1034
+CENTRO-OESTE,52,GO,79,6%,43,3%,52,4%,108,9%,58,5%,53,4%,53,4%,808,64%,1254
+CENTRO-OESTE,50,MS,74,9%,36,4%,38,5%,52,6%,40,5%,27,3%,27,3%,514,64%,808
+CENTRO-OESTE,51,MT,197,9%,73,3%,90,4%,102,5%,59,3%,53,3%,70,3%,1458,69%,2102
+TOTAL REGIÃO CENTRO-OESTE,,,436,8%,204,4%,246,5%,327,6%,211,4%,181,3%,180,3%,3413,66%,5198
+NORDESTE,27,AL,32,3%,17,2%,19,2%,40,4%,23,2%,33,3%,23,2%,786,81%,973
+NORDESTE,29,BA,84,4%,69,4%,60,3%,71,4%,55,3%,55,3%,67,3%,1482,76%,1943
+NORDESTE,23,CE,53,6%,40,4%,41,4%,55,6%,34,4%,27,3%,26,3%,682,71%,958
+NORDESTE,21,MA,18,7%,34,12%,35,13%,39,14%,17,6%,20,7%,21,8%,90,33%,274
+NORDESTE,25,PB,29,3%,27,3%,22,3%,21,2%,17,2%,23,3%,21,2%,683,81%,843
+NORDESTE,26,PE,21,4%,12,3%,24,5%,29,6%,32,7%,25,5%,16,3%,316,67%,475
+NORDESTE,22,PI,14,3%,7,1%,10,2%,25,5%,16,3%,20,4%,28,5%,394,77%,514
+NORDESTE,24,RN,40,5%,31,4%,35,4%,50,6%,27,3%,27,3%,21,2%,653,74%,884
+NORDESTE,28,SE,0,-,0,-,0,-,1,20%,0,-,0,-,0,-,4,80%,5
+TOTAL REGIÃO NORDESTE,,,291,4%,237,3%,246,4%,331,5%,221,3%,230,3%,223,3%,5090,74%,6869
+NORTE,12,AC,15,22%,14,21%,9,13%,8,12%,6,9%,3,4%,4,6%,9,13%,68
+NORTE,13,AM,23,10%,47,20%,49,21%,57,25%,16,7%,6,3%,2,1%,30,13%,230
+NORTE,16,AP,47,9%,56,11%,78,15%,101,19%,30,6%,24,5%,12,2%,179,34%,527
+NORTE,15,PA,553,14%,567,14%,595,15%,400,10%,234,6%,201,5%,306,8%,1174,29%,4030
+NORTE,11,RO,5,36%,1,7%,0,-,0,-,1,7%,0,-,0,-,7,50%,14
+NORTE,14,RR,0,-,1,14%,0,-,1,14%,0,-,0,-,0,-,5,71%,7
+NORTE,17,TO,62,5%,28,2%,52,5%,78,7%,75,7%,66,6%,74,6%,704,62%,1139
+TOTAL REGIÃO NORTE,,,705,12%,714,12%,783,13%,645,11%,362,6%,300,5%,398,7%,2108,35%,6015
+SUDESTE,32,ES,28,8%,4,1%,14,4%,6,2%,4,1%,8,2%,6,2%,262,79%,332
+SUDESTE,31,MG,558,5%,381,3%,415,4%,511,5%,375,3%,382,3%,420,4%,8043,73%,11085
+SUDESTE,33,RJ,123,8%,58,4%,91,6%,100,6%,66,4%,67,4%,52,3%,993,64%,1550
+SUDESTE,35,SP,856,9%,382,4%,497,5%,521,5%,344,4%,319,3%,307,3%,6360,66%,9586
+TOTAL REGIÃO SUDESTE,,,1565,7%,825,4%,1017,5%,1138,5%,789,3%,776,3%,785,3%,15658,69%,22553
+SUL,41,PR,110,8%,48,3%,69,5%,68,5%,57,4%,72,5%,83,6%,920,64%,1427
+SUL,43,RS,90,10%,82,9%,100,11%,101,11%,50,5%,60,7%,46,5%,386,42%,915
+SUL,42,SC,35,11%,25,8%,25,8%,30,9%,40,12%,30,9%,36,11%,105,32%,326
+TOTAL REGIÃO SUL,,,235,9%,155,6%,194,7%,199,7%,147,6%,162,6%,165,6%,1411,53%,2668
+TOTAL BRASIL,,,3232,7%,2135,5%,2486,6%,2640,6%,1730,4%,1649,4%,1751,4%,27680,64%,43303
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+TOTAL ESTADO: Corresponde aos dados dos municípios em cada estado.,,,,,,,,,,,,,,,,,,,
+TOTAL REGIÃO: Corresponde aos dados dos municípios em cada região.,,,,,,,,,,,,,,,,,,,
+TOTAL BRASIL: Corresponde aos dados dos municípios no Brasil.,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Fonte: MS/SAS/DAB/Núcleo de Tecnologia da Informação - NTI,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Atenção: Todos os campos selecionados excede o limite de impressão no papel A4.,,,,,,,,,,,,,,,,,,,
+Para imprimir configure a página:,,,,,,,,,,,,,,,,,,,
+1) Formato paisagem;,,,,,,,,,,,,,,,,,,,
+"2) Margens (esquerda, direita, superior, inferior): 1, 1, 1, 1.",,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,62 @@
+,,,,,,,,,,,,,,,,,,,
+MS/SAS/DAB/Núcleo de Tecnologia da Informação - NTI,,,,,,,,,,,,,,,,,,,
+"Relatório do Consumo Alimentar por período, fase do ciclo da vida (de 2008 a 2014).",,,,,,,,,,,,,,,,,,,
+Abrangência: Região (TODOS) - Estado (TODOS),,,,,,,,,,,,,,,,,,,
+Competência: Ano: 2011 - Mês: TODOS,,,,,,,,,,,,,,,,,,,
+Faixa Etária: Gestantes (Adolescentes e Adultas),,,,,,,,,,,,,,,,,,,
+Sexo: TODOS,,,,,,,,,,,,,,,,,,,
+Raça e Cor: TODOS,,,,,,,,,,,,,,,,,,,
+Povo e Comunidade: TODOS,,,,,,,,,,,,,,,,,,,
+Escolaridade: TODOS,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Abrangência Estadual,,,FREQUÊNCIA DE CONSUMO - Leite ou iogurte,,,,,,,,,,,,,,,,Total de indivíduos
+Região,Código UF,UF,,,,,,,,,,,,,,,,,avaliados
+,,,Não consumiu nos últimos sete dias,,1 dia nos últimos sete dias,,2 dias nos últimos sete dias,,3 dias nos últimos sete dias,,4 dias nos últimos sete dias,,5 dias nos últimos sete dias,,6 dias nos últimos sete dias,,Todos os últimos sete dias,,
+,,,n,%,n,%,n,%,n,%,n,%,n,%,n,%,n,%,
+CENTRO-OESTE,53,DF,139,12%,57,5%,74,6%,65,5%,64,5%,34,3%,11,1%,752,63%,1196
+CENTRO-OESTE,52,GO,113,13%,64,7%,72,8%,85,9%,45,5%,47,5%,36,4%,436,49%,898
+CENTRO-OESTE,50,MS,347,17%,183,9%,197,9%,195,9%,128,6%,94,5%,70,3%,861,41%,2075
+CENTRO-OESTE,51,MT,545,17%,241,8%,275,9%,272,9%,174,5%,127,4%,115,4%,1419,45%,3168
+TOTAL REGIÃO CENTRO-OESTE,,,1144,16%,545,7%,618,8%,617,8%,411,6%,302,4%,232,3%,3468,47%,7337
+NORDESTE,27,AL,144,16%,62,7%,105,12%,111,13%,48,5%,23,3%,24,3%,363,41%,880
+NORDESTE,29,BA,358,15%,186,8%,258,11%,224,9%,115,5%,100,4%,99,4%,1083,45%,2423
+NORDESTE,23,CE,224,23%,78,8%,68,7%,74,8%,37,4%,33,3%,26,3%,445,45%,985
+NORDESTE,21,MA,9,13%,8,11%,5,7%,7,10%,2,3%,3,4%,3,4%,35,49%,72
+NORDESTE,25,PB,66,12%,230,41%,55,10%,31,6%,12,2%,11,2%,13,2%,141,25%,559
+NORDESTE,26,PE,64,17%,37,10%,40,11%,21,6%,20,5%,18,5%,19,5%,149,40%,368
+NORDESTE,22,PI,59,10%,47,8%,53,9%,26,5%,25,4%,23,4%,14,2%,323,57%,570
+NORDESTE,24,RN,30,16%,4,2%,15,8%,9,5%,8,4%,10,5%,8,4%,106,56%,190
+NORDESTE,28,SE,2,13%,1,7%,3,20%,1,7%,0,-,0,-,1,7%,7,47%,15
+TOTAL REGIÃO NORDESTE,,,956,16%,653,11%,602,10%,504,8%,267,4%,221,4%,207,3%,2652,44%,6062
+NORTE,12,AC,4,31%,3,23%,0,-,0,-,0,-,0,-,0,-,6,46%,13
+NORTE,13,AM,92,14%,65,10%,107,16%,84,12%,30,4%,25,4%,34,5%,242,36%,679
+NORTE,16,AP,2,67%,0,-,0,-,0,-,0,-,0,-,0,-,1,33%,3
+NORTE,15,PA,613,18%,303,9%,303,9%,231,7%,140,4%,93,3%,96,3%,1712,49%,3491
+NORTE,11,RO,0,-,0,-,1,25%,0,-,0,-,0,-,0,-,3,75%,4
+NORTE,14,RR,0,-,0,-,1,50%,1,50%,0,-,0,-,0,-,0,-,2
+NORTE,17,TO,68,25%,15,5%,20,7%,17,6%,9,3%,12,4%,16,6%,118,43%,275
+TOTAL REGIÃO NORTE,,,779,17%,386,9%,432,10%,333,7%,179,4%,130,3%,146,3%,2082,47%,4467
+SUDESTE,32,ES,18,14%,19,15%,8,6%,7,6%,5,4%,8,6%,4,3%,58,46%,127
+SUDESTE,31,MG,561,12%,398,8%,458,10%,416,9%,304,6%,318,7%,238,5%,2068,43%,4761
+SUDESTE,33,RJ,137,13%,80,8%,72,7%,78,8%,48,5%,30,3%,30,3%,543,53%,1018
+SUDESTE,35,SP,1236,15%,568,7%,563,7%,521,6%,334,4%,284,4%,242,3%,4288,53%,8036
+TOTAL REGIÃO SUDESTE,,,1952,14%,1065,8%,1101,8%,1022,7%,691,5%,640,5%,514,4%,6957,50%,13942
+SUL,41,PR,292,12%,142,6%,187,8%,175,7%,88,4%,64,3%,63,3%,1351,57%,2362
+SUL,43,RS,113,14%,48,6%,61,8%,56,7%,26,3%,11,1%,24,3%,446,57%,785
+SUL,42,SC,62,7%,76,9%,65,7%,85,10%,64,7%,54,6%,45,5%,435,49%,886
+TOTAL REGIÃO SUL,,,467,12%,266,7%,313,8%,316,8%,178,4%,129,3%,132,3%,2232,55%,4033
+TOTAL BRASIL,,,5298,15%,2915,8%,3066,9%,2792,8%,1726,5%,1422,4%,1231,3%,17391,49%,35841
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+TOTAL ESTADO: Corresponde aos dados dos municípios em cada estado.,,,,,,,,,,,,,,,,,,,
+TOTAL REGIÃO: Corresponde aos dados dos municípios em cada região.,,,,,,,,,,,,,,,,,,,
+TOTAL BRASIL: Corresponde aos dados dos municípios no Brasil.,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Fonte: MS/SAS/DAB/Núcleo de Tecnologia da Informação - NTI,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Atenção: Todos os campos selecionados excede o limite de impressão no papel A4.,,,,,,,,,,,,,,,,,,,
+Para imprimir configure a página:,,,,,,,,,,,,,,,,,,,
+1) Formato paisagem;,,,,,,,,,,,,,,,,,,,
+"2) Margens (esquerda, direita, superior, inferior): 1, 1, 1, 1.",,,,,,,,,,,,,,,,,,,

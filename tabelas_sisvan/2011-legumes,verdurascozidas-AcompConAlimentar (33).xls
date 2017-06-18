@@ -1,0 +1,1122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR">
+    <head>
+        <title>Sistema de Vigil&acirc;ncia Alimentar e Nutricional - SISVAN</title>
+
+        <style>
+            /* Geral e TAG principais */
+            .floatRight { float: right !important; }
+            .vermelho { color:#ff0000 !important; }
+            .paddingleft150{ padding-left: 150px !important; }
+            .inputLowercase { text-transform: lowercase !important; }
+            .floatLeft { float: left !important; }
+            .minFontSize { font-size: xx-small !important; }
+            .fontSizeXSmall { font-size: x-small !important; }
+            .marginLeft155 { margin-left: 155px !important; }
+            .marginLeft10 { margin-left: 10px !important; }
+            .marginLeft0 { margin-left: 0px !important; }
+            .padding0 { padding: 0 !important; }
+            .alerta{ color: #ff0000; }
+            .displayNone { display: none}
+            .cursorPointer { cursor: pointer;}
+            .log{border: 1px solid #cccccc;padding:5px 5px 5px 5px;}
+
+            body { background-color:#fff; font-family:Tahoma,Arial,Helvetica,sans-serif; font-size: 12px; color:#000; vertical-align:top; margin:0 auto; text-align: justify; padding: 0px; }
+
+            h1 { margin: 0px 0px 15px 0px; padding-top: 0; color: #595959; font-size: 18px; font-weight: normal; border-bottom: 1px solid #cccccc; }
+            h2 { margin: 0px 0px 15px 0px; padding-top: 0; color: #595959; font-size: 14px; font-weight: bold; }
+            h3 { margin-top: 0; padding-top: 0; color: #595959; font-size: 13px; font-weight: bold; }
+            h4 { margin-top: 0; padding-top: 0; color: #595959; font-size: 12px; }
+            h5 { margin: 0; padding: 0; color: #595959; font-size: 12px; font-weight: bold; }
+
+            a{ color: #595959; text-decoration: none; cursor: pointer; }
+            a:link{ color: #595959; text-decoration: none; cursor: pointer; }
+            a:hover{ color: #000; text-decoration: underline; cursor: pointer; }
+
+            p:first-letter{ padding-left: 25px; }
+
+            a img {
+                border: 0px;
+            }
+
+
+            /**
+             * Fundo do cabecalho
+            */
+            #fundo { background-image: url(../../imgs/sistemas/geral/imgTopo.png); background-repeat: repeat-x; vertical-align: top; }
+            #topo { height: 106px; background-image: url(../../imgs/sistemas/geral/imgTopo.png); background-color: black; }
+            .header { height: 145px; background-image: url(../../imgs/sistemas/geral/imgTopo.png); background-repeat: repeat-x; margin:0px 0px 5px 0px; }
+
+
+            /*table*/
+            table, tr, td {/*
+            border: 1px solid #d7d7d7;*/
+                font-size: 11px;
+                font-family: tahoma;
+                color:#414141;
+                border-collapse: collapse;
+            }
+
+            td{
+                padding: 3px 5px 3px 5px;
+                /*text-align: center;*/
+            }
+
+            th {
+                background-image:url(../../imgs/sistemas/geral/bgTable.png);
+                background-repeat: repeat-x;
+                border: 1px solid #d7d7d7;
+                padding: 4px;
+                font-weight: bold;
+            }
+
+            #rodape{
+                width: 100%;
+                min-height: 180px;
+                clear: both;
+                margin: 0 auto;
+                padding: 0;
+                padding-bottom: 0;
+                text-align: left;
+                background-color: #f2f1f1;
+                vertical-align: top;
+                color: #595959;
+                z-index: 9999;
+            }
+
+            .rodape{ font-size: 12px !important; }
+
+            .acessibilidade_rodape{
+                margin-top: 40px;
+                margin-bottom: 0px;
+                clear: both;
+                border-top: 1px solid #006E36;
+            }
+
+            .header-print{display: none;}
+
+            /* Geral e TAG principais */
+            body{
+                color: #58585A;
+            }
+
+            h1 {
+                color: #E95D0F;
+            }
+
+            h2 {
+                color: #E95D0F;
+            }
+
+            h3 {
+                color: #E95D0F;
+            }
+
+            h4 {
+                color: #E95D0F;
+            }
+
+            h5 {
+                color: #E95D0F;
+            }
+
+            a{
+                color: #E95D0F;
+            }
+
+            a:hover{
+                color: #cc4800;
+            }
+
+            legend {
+                color:#3a3939;
+            }
+            img {
+                border: 0px;
+            }
+
+            hr {
+                border: 1px solid #ccc;
+            }
+
+            /* Geral e TAG principais */
+
+            #barra-brasil-v3 {
+                position:relative;
+                clear:both;
+                overflow:hidden;
+                min-width:1000px;
+                height:28px;
+                background:#00500F;
+            }
+            #barra-brasil-v3 div {
+                display:block;
+                width:50%;
+                height:28px;
+                background:url(../../imgs/geral/barra-brasil-v3-bgx.gif) 0 bottom repeat-x;
+            }
+            #barra-brasil-v3 div .imagemGov {
+                position:absolute;
+                top:4px;
+                left:50%;
+                height: 24px;
+                width: 981px;
+                background: url(../../imgs/geral/barra-brasil-v3-verde.gif) right top no-repeat!important;
+                margin-left: -500px;
+            }
+            #barra-brasil-v3 div .brasilgov {
+                width: 100px;
+                height: 24px;
+                float:right;
+                display:block;
+                border: 0 !important;
+            }
+
+            /* Fundo do cabecalho */
+            #fundo {
+                background-image: url(../../imgs/sistemas/sisvan/imgTopo.png);
+            }
+
+            .header {
+                background-image: url(../../imgs/sistemas/sisvan/logo_cabecalho.png);
+            }
+            /* Fundo do cabecalho */
+
+            /*MENU SUPERIOR*/
+            .menu ul li a{
+                color: #5cb9d8 !important;
+            }
+
+            .menu ul li a:hover{
+                color: #fff !important;
+                background-image: url(../../imgs/sistemas/sisvan/botaoMenu.png);
+            }
+            /*MENU SUPERIOR*/
+
+            /*MENU LATERAL*/
+
+            .menu_lateral {
+                background-image: url(../../imgs/sistemas/sisvan/backMenu.png);
+                min-height: 575px;
+            }
+            ul#Menu {/** width:200px; */ padding: 5px !important; font-size: 12px;}
+            ul#Menu li {display:block; /** width:200px; */ height:auto;}
+            ul#Menu li a {display:block; width:160px; height:auto; margin-bottom:3px; padding:10px 15px; text-decoration:none; background-color:#E95D0F; color:#fff; border-bottom:1px solid #e97f44; }
+            ul#Menu li a:hover {display:block; width:160px; height:auto; margin-bottom:3px; padding:10px 15px; background-color:#ffe2cd; color:#000; text-decoration:none; font-weight: normal;}
+            ul#Menu li a.logado {display:block; width:160px; height:auto; margin-bottom:3px; padding:10px 15px; background-color:#ff9a5e; color:#000; text-decoration:none;}
+            ul#Menu li ul { display:none; padding: 0 !important;}
+            ul#Menu li ul li{}
+            ul#Menu li ul li a {display:block; width:160px; height:auto; margin-bottom:3px; padding:10px 15px; background-color:#fff; border-bottom:1px solid #E95D0F; color:#E95D0F; text-decoration:none;}
+            ul#Menu li ul li a:hover {display:block; width:160px; height:auto; margin-bottom:3px; padding:10px 15px; background-color:#fff; border-bottom:1px solid #E95D0F; color:#000; text-decoration:none; font-weight: normal;}
+            .setaMenu {background:transparent url(../../imgs/sistemas/geral/setaMenu.png) bottom right no-repeat;}
+
+            /*MENU LATERAL*/
+
+            /*CONTEUDO*/
+            .content {
+                background-image: url(../../imgs/sistemas/sisvan/backMenuPrinc.png);
+            }
+
+            .desenhoRodape{
+                background-image: url(../../imgs/sistemas/sisvan/desenhoRodape.png);
+                background-repeat: no-repeat;
+                background-position: bottom right !important;
+            }
+
+            /*CONTEUDO*/
+
+            /*TABLE*/
+            table, tr, td {
+                /*border: 1px solid #d7d7d7;*/
+                color:#000;
+            }
+
+            th {
+                background-image:url(../../imgs/sistemas/sisvan/bgTable.png);
+                /*border: 1px solid #d7d7d7;*/
+            }
+
+            /* result */
+            #amplia {cursor:pointer;}
+
+            .acessibilidade { text-align: center; font-size: xx-small; margin-top: 25px; }
+            .acessibilidade div { margin-top: 5px; }
+            .acessibilidade div a img { border:0; width:88px; height:31px; }
+
+            .header #acessibilidadeTexto {float:right; margin-top:120px; width:100%; text-align:right; z-index: 1000 !important;}
+            .log{border: 1px solid #cccccc;padding:5px 5px 5px 5px;}
+
+            /*------  FORMULARIOS -------*/
+            label {display:block; width:150px; float:left; color:#666; font-family: Verdana, Tahoma, Arial, Helvetica; font-size:11px; text-align:right; margin:0px 15px 5px 0px; min-height:20px;}
+            select, textarea, input[type=text], input[type=password] {/* -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; */height: 22px; vertical-align:middle; border:1px solid #b6b6b6; background-color:#fff; color:#000; text-transform:uppercase;}
+            input[type=text], input[type=password]{height: 22px; margin: 0px 0px 5px 0px;}
+            select:focus, textarea:focus, input[type=text]:focus, input[type=password]:focus {/* -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; */border:1px solid #b6b6b6; color:#000; background-color:#fafafa; text-transform:uppercase;}
+            input[type=submit], input[type=button], input[type=reset] {border: 1px solid #626262; border-bottom: 2px solid #626262; border-right: 2px solid #626262; font-size:12px; color:#000000; margin: 0px 0px 10px 0px; height:24px; padding:2px 8px 8px 8px; text-transform: uppercase; background-image: url(../../../imgs/sistemas/geral/backBotao.png); cursor: pointer;}
+            input[type=submit]:hover, input[type=button]:hover {border: 1px solid #626262; border-bottom: 2px solid #626262; border-right: 2px solid #626262; font-size:12px; color:#000; margin: 0px 0px 10px 0px; text-transform: uppercase; background-image: url(../../../imgs/sistemas/geral/backBotao2.png); cursor: pointer;}
+            input[type=text].inputLowercase {text-transform:lowercase;}
+            input[type=text].inputNormal, textarea.inputNormal {text-transform:none;}
+            /*------  FORMULARIOS -------*/
+
+            label {display: block; width: 144px; float: left; color: #6b6b6b; font-family: Verdana, Tahoma, Arial, Helvetica; font-size: 11px; text-align: right; margin-right: 4px; min-height: 20px;}	    
+            label.checkFasesVida{display: block; width: 150px; float: left; border-bottom: 1px solid #CCCCCC; visibility: visible !important; text-align: left;}
+            span.error {font-family: Verdana, Tahoma, Arial, Helvetica; font-size: 11px; font-weight: bold; text-align: left; height: 40px; color: red; background: url('../../imgs/sistemas/beriberi/error.png') no-repeat; padding: 2px 0px 0px 18px;}
+            span.error img {padding-right: 5px;}
+
+            /* ICONES */
+            input[type=button].btAlterar{border: 0px; margin: 0px; padding: 0px; background-image: url('../../imgs/sistemas/geral/alterar.png'); background-repeat: no-repeat; background-color: transparent; width: 16px; cursor: pointer;}
+            input[type=button].btAcompanhar{border: 0px; margin: 0px; padding: 0px; background-image: url('../../imgs/sistemas/geral/acomp.png'); background-repeat: no-repeat; background-color: transparent; width: 16px; cursor: pointer;}
+            input[type=button].btVisualizar{border: 0px; margin: 0px; padding: 0px; background-image: url('../../imgs/sistemas/geral/visualizar.png'); background-repeat: no-repeat; background-color: transparent; width: 24px; cursor: pointer;}
+            input[type=button].btImprimir{border: 0px; margin: 0px; padding: 0px; background-image: url('../../imgs/sistemas/geral/printer.png') ;  background-repeat: no-repeat; background-color: transparent; width: 24px; cursor: pointer;}
+
+            /* ICONES */
+
+
+            table.tableGrid { border-style: solid; border-width: 1px 1px 1px 1px; border-color: #B4B4B4; border-collapse:collapse; width: 100%;}
+            tbody.tableGrid tr {cursor: pointer;}
+            table.tableGrid th {border-width: 1px 1px 1px 1px; border-style: solid; text-align: center; margin: 0; border-color: #B4B4B4; height: 24px; vertical-align: middle; display: table-cell; padding: 5px 5px 5px 5px;}
+            table.tableGrid td {border-width: 1px 1px 1px 1px; border-style: solid; text-align: center; margin: 0; border-color: #B4B4B4; height: 24px; vertical-align: middle; display: table-cell; padding: 5px 5px 5px 5px;}
+            table.tableGrid thead { text-align: center; background: url('../../../imgs/sistemas/geral/fhbg_35.gif'); height: 35px;}
+            table.tableGrid thead.backgroundImageNone tr th { text-align: center; background-color: #f2f1f1; background-image: none !important; }
+            table.tableGrid th.backgroundImageNone { text-align: center; background-color: #f2f1f1; background-image: none !important; }
+            table.tableGrid tfoot { font-weight: bold; background-color: #f2f1f1; text-align: left; }
+            .tdAlignLeft{text-align: left !important;}
+            .tdAlignRight{text-align: right !important;}
+            .tdFontBold{font-weight: bold;}
+            .backgroundColorBlue {background-color:#d5effc !important;}
+            .backgroundColorBlue td {color:#000000 !important;}
+            .backgroundColorCinza{background-color:#e6e6e6 !important;}
+            .backgroundColorCinza td{color:#000 !important;}
+            .backgroundColorVerde {background-color:#eff3e7;}
+            .backgroundColorVerde td {color:#000000;}
+            .backgroundColorVermelho {background-color:#ffe8e8;}
+            .backgroundColorVermelho td {color:#000000;}
+        </style>
+
+    </head>
+
+    <body>
+        <br />
+        <strong>
+            MS/SAS/DAB/N&uacute;cleo de Tecnologia da Informa&ccedil;&atilde;o - NTI<br />
+            Relatório do Consumo Alimentar por período, fase do ciclo da vida (de 2008 a 2014).<br />
+                        Abrang&ecirc;ncia:</strong> Regi&atilde;o (TODOS) - Estado (TODOS)<br />
+            <strong>Compet&ecirc;ncia: Ano: </strong>2011 - <strong>M&ecirc;s:</strong> TODOS<br />
+        <strong>Faixa Etária:</strong> Gestantes (Adolescentes e Adultas)<br />
+        <strong>Sexo:</strong> TODOS<br /> 
+        <strong>Raça e Cor:</strong> TODOS<br />
+        <strong>Povo e Comunidade:</strong> TODOS<br />
+        <strong>Escolaridade:</strong> TODOS<br />
+        <br /><br />
+        
+        
+        
+        
+        
+        
+        <!--  ######################################  FIM MOSTRANDO AS OPÇÕES SELECIONADAS DA CONSULTA  ######################################  -->
+        <table class="tableGrid" width="100%">
+            <thead class="backgroundImageNone">
+                <tr>
+                                        <th rowspan="1" colspan="3">Abrang&ecirc;ncia Estadual</th>
+                    <th colspan="16">FREQUÊNCIA DE CONSUMO - Legumes e verduras cozidos </th>
+                    <th rowspan="4">Total de indivíduos <br>avaliados</th>
+                                   
+                </tr>
+                <tr>
+                                        
+                    <th rowspan="3">Regi&atilde;o</th>
+                    <th rowspan="3">C&oacute;digo UF</th>
+                    <th rowspan="3">UF</th>
+                <tr>
+                    <th colspan="2" width="auto">Não consumiu nos últimos sete dias</th>
+                    <th colspan="2" width="auto">1 dia nos últimos sete dias</th>
+                    <th colspan="2" width="auto">2 dias nos últimos sete dias</th>
+                    <th colspan="2" width="auto">3 dias nos últimos sete dias</th>
+                    <th colspan="2" width="auto">4 dias nos últimos sete dias</th>
+                    <th colspan="2" width="auto">5 dias nos últimos sete dias</th>
+                    <th colspan="2" width="auto">6 dias nos últimos sete dias</th>
+                    <th colspan="2" width="auto">Todos os últimos sete dias</th>
+                </tr>
+                <tr>
+                    <th width="auto">n</th>
+                    <th width="auto">%</th>
+                    <th width="auto">n</th>
+                    <th width="auto">%</th>
+                    <th width="auto">n</th>
+                    <th width="auto">%</th>
+                    <th width="auto">n</th>
+                    <th width="auto">%</th>
+                    <th width="auto">n</th>
+                    <th width="auto">%</th>
+                    <th width="auto">n</th>
+                    <th width="auto">%</th>
+                    <th width="auto">n</th>
+                    <th width="auto">%</th>
+                    <th width="auto">n</th>
+                    <th width="auto">%</th>
+                </tr>                </tr>                             
+            </thead>
+            <tbody>
+                                                            <tr>
+                                                                                                    <td class="tdAlignLeft">CENTRO-OESTE</td>
+                                                    <td class="tdAlignLeft">53</td>
+                                                    <td class="tdAlignLeft" colspan="1">DF</td>
+                                                                                                            <td>276</td>
+                                                        <td>23%</td>
+                                                        <td>154</td>
+                                                        <td>13%</td>
+                                                        <td>196</td>
+                                                        <td>16%</td>
+                                                        <td>162</td>
+                                                        <td>14%</td>
+                                                        <td>70</td>
+                                                        <td>6%</td>
+                                                        <td>41</td>
+                                                        <td>3%</td>
+                                                        <td>27</td>
+                                                        <td>2%</td>
+                                                        <td>270</td>
+                                                        <td>23%</td>
+                                                        <td>1.196</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">CENTRO-OESTE</td>
+                                                    <td class="tdAlignLeft">52</td>
+                                                    <td class="tdAlignLeft" colspan="1">GO</td>
+                                                                                                            <td>127</td>
+                                                        <td>14%</td>
+                                                        <td>83</td>
+                                                        <td>9%</td>
+                                                        <td>112</td>
+                                                        <td>12%</td>
+                                                        <td>112</td>
+                                                        <td>12%</td>
+                                                        <td>80</td>
+                                                        <td>9%</td>
+                                                        <td>75</td>
+                                                        <td>8%</td>
+                                                        <td>56</td>
+                                                        <td>6%</td>
+                                                        <td>253</td>
+                                                        <td>28%</td>
+                                                        <td>898</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">CENTRO-OESTE</td>
+                                                    <td class="tdAlignLeft">50</td>
+                                                    <td class="tdAlignLeft" colspan="1">MS</td>
+                                                                                                            <td>627</td>
+                                                        <td>30%</td>
+                                                        <td>346</td>
+                                                        <td>17%</td>
+                                                        <td>349</td>
+                                                        <td>17%</td>
+                                                        <td>250</td>
+                                                        <td>12%</td>
+                                                        <td>112</td>
+                                                        <td>5%</td>
+                                                        <td>91</td>
+                                                        <td>4%</td>
+                                                        <td>77</td>
+                                                        <td>4%</td>
+                                                        <td>223</td>
+                                                        <td>11%</td>
+                                                        <td>2.075</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">CENTRO-OESTE</td>
+                                                    <td class="tdAlignLeft">51</td>
+                                                    <td class="tdAlignLeft" colspan="1">MT</td>
+                                                                                                            <td>959</td>
+                                                        <td>30%</td>
+                                                        <td>426</td>
+                                                        <td>13%</td>
+                                                        <td>466</td>
+                                                        <td>15%</td>
+                                                        <td>399</td>
+                                                        <td>13%</td>
+                                                        <td>183</td>
+                                                        <td>6%</td>
+                                                        <td>139</td>
+                                                        <td>4%</td>
+                                                        <td>125</td>
+                                                        <td>4%</td>
+                                                        <td>472</td>
+                                                        <td>15%</td>
+                                                        <td>3.169</td>
+                                                                                                    </tr>
+                                                        
+                        <tr class="backgroundColorCinza" style="font-weight: bold;">
+                                <!--<td class="tdAlignLeft">5</td>-->
+                                <td class="tdAlignLeft" colspan="3">
+                                TOTAL REGI&Atilde;O CENTRO-OESTE                                </td>
+                                                                        <td>1989</td>
+                                        <td>27%</td>
+                                        <td>1009</td>
+                                        <td>14%</td>
+                                        <td>1123</td>
+                                        <td>15%</td>
+                                        <td>923</td>
+                                        <td>13%</td>
+                                        <td>445</td>
+                                        <td>6%</td>
+                                        <td>346</td>
+                                        <td>5%</td>
+                                        <td>285</td>
+                                        <td>4%</td>
+                                        <td>1218</td>
+                                        <td>17%</td>
+                                        <td>7.338</td>
+                                                                 </tr>                            
+                                                                <tr>
+                                                                                                    <td class="tdAlignLeft">NORDESTE</td>
+                                                    <td class="tdAlignLeft">27</td>
+                                                    <td class="tdAlignLeft" colspan="1">AL</td>
+                                                                                                            <td>287</td>
+                                                        <td>33%</td>
+                                                        <td>95</td>
+                                                        <td>11%</td>
+                                                        <td>103</td>
+                                                        <td>12%</td>
+                                                        <td>83</td>
+                                                        <td>9%</td>
+                                                        <td>45</td>
+                                                        <td>5%</td>
+                                                        <td>29</td>
+                                                        <td>3%</td>
+                                                        <td>21</td>
+                                                        <td>2%</td>
+                                                        <td>217</td>
+                                                        <td>25%</td>
+                                                        <td>880</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORDESTE</td>
+                                                    <td class="tdAlignLeft">29</td>
+                                                    <td class="tdAlignLeft" colspan="1">BA</td>
+                                                                                                            <td>551</td>
+                                                        <td>23%</td>
+                                                        <td>267</td>
+                                                        <td>11%</td>
+                                                        <td>333</td>
+                                                        <td>14%</td>
+                                                        <td>280</td>
+                                                        <td>12%</td>
+                                                        <td>136</td>
+                                                        <td>6%</td>
+                                                        <td>106</td>
+                                                        <td>4%</td>
+                                                        <td>120</td>
+                                                        <td>5%</td>
+                                                        <td>630</td>
+                                                        <td>26%</td>
+                                                        <td>2.423</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORDESTE</td>
+                                                    <td class="tdAlignLeft">23</td>
+                                                    <td class="tdAlignLeft" colspan="1">CE</td>
+                                                                                                            <td>491</td>
+                                                        <td>50%</td>
+                                                        <td>153</td>
+                                                        <td>16%</td>
+                                                        <td>124</td>
+                                                        <td>13%</td>
+                                                        <td>74</td>
+                                                        <td>8%</td>
+                                                        <td>30</td>
+                                                        <td>3%</td>
+                                                        <td>16</td>
+                                                        <td>2%</td>
+                                                        <td>23</td>
+                                                        <td>2%</td>
+                                                        <td>74</td>
+                                                        <td>8%</td>
+                                                        <td>985</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORDESTE</td>
+                                                    <td class="tdAlignLeft">21</td>
+                                                    <td class="tdAlignLeft" colspan="1">MA</td>
+                                                                                                            <td>15</td>
+                                                        <td>21%</td>
+                                                        <td>17</td>
+                                                        <td>24%</td>
+                                                        <td>10</td>
+                                                        <td>14%</td>
+                                                        <td>9</td>
+                                                        <td>13%</td>
+                                                        <td>4</td>
+                                                        <td>6%</td>
+                                                        <td>3</td>
+                                                        <td>4%</td>
+                                                        <td>5</td>
+                                                        <td>7%</td>
+                                                        <td>9</td>
+                                                        <td>13%</td>
+                                                        <td>72</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORDESTE</td>
+                                                    <td class="tdAlignLeft">25</td>
+                                                    <td class="tdAlignLeft" colspan="1">PB</td>
+                                                                                                            <td>120</td>
+                                                        <td>21%</td>
+                                                        <td>69</td>
+                                                        <td>12%</td>
+                                                        <td>88</td>
+                                                        <td>16%</td>
+                                                        <td>73</td>
+                                                        <td>13%</td>
+                                                        <td>136</td>
+                                                        <td>24%</td>
+                                                        <td>14</td>
+                                                        <td>3%</td>
+                                                        <td>9</td>
+                                                        <td>2%</td>
+                                                        <td>50</td>
+                                                        <td>9%</td>
+                                                        <td>559</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORDESTE</td>
+                                                    <td class="tdAlignLeft">26</td>
+                                                    <td class="tdAlignLeft" colspan="1">PE</td>
+                                                                                                            <td>115</td>
+                                                        <td>31%</td>
+                                                        <td>59</td>
+                                                        <td>16%</td>
+                                                        <td>64</td>
+                                                        <td>17%</td>
+                                                        <td>40</td>
+                                                        <td>11%</td>
+                                                        <td>23</td>
+                                                        <td>6%</td>
+                                                        <td>13</td>
+                                                        <td>4%</td>
+                                                        <td>8</td>
+                                                        <td>2%</td>
+                                                        <td>46</td>
+                                                        <td>13%</td>
+                                                        <td>368</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORDESTE</td>
+                                                    <td class="tdAlignLeft">22</td>
+                                                    <td class="tdAlignLeft" colspan="1">PI</td>
+                                                                                                            <td>227</td>
+                                                        <td>40%</td>
+                                                        <td>131</td>
+                                                        <td>23%</td>
+                                                        <td>88</td>
+                                                        <td>15%</td>
+                                                        <td>27</td>
+                                                        <td>5%</td>
+                                                        <td>30</td>
+                                                        <td>5%</td>
+                                                        <td>17</td>
+                                                        <td>3%</td>
+                                                        <td>14</td>
+                                                        <td>2%</td>
+                                                        <td>36</td>
+                                                        <td>6%</td>
+                                                        <td>570</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORDESTE</td>
+                                                    <td class="tdAlignLeft">24</td>
+                                                    <td class="tdAlignLeft" colspan="1">RN</td>
+                                                                                                            <td>76</td>
+                                                        <td>40%</td>
+                                                        <td>20</td>
+                                                        <td>10%</td>
+                                                        <td>27</td>
+                                                        <td>14%</td>
+                                                        <td>21</td>
+                                                        <td>11%</td>
+                                                        <td>12</td>
+                                                        <td>6%</td>
+                                                        <td>10</td>
+                                                        <td>5%</td>
+                                                        <td>4</td>
+                                                        <td>2%</td>
+                                                        <td>21</td>
+                                                        <td>11%</td>
+                                                        <td>191</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORDESTE</td>
+                                                    <td class="tdAlignLeft">28</td>
+                                                    <td class="tdAlignLeft" colspan="1">SE</td>
+                                                                                                            <td>2</td>
+                                                        <td>13%</td>
+                                                        <td>2</td>
+                                                        <td>13%</td>
+                                                        <td>3</td>
+                                                        <td>20%</td>
+                                                        <td>2</td>
+                                                        <td>13%</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>1</td>
+                                                        <td>7%</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>5</td>
+                                                        <td>33%</td>
+                                                        <td>15</td>
+                                                                                                    </tr>
+                                                        
+                        <tr class="backgroundColorCinza" style="font-weight: bold;">
+                                <!--<td class="tdAlignLeft">2</td>-->
+                                <td class="tdAlignLeft" colspan="3">
+                                TOTAL REGI&Atilde;O NORDESTE                                </td>
+                                                                        <td>1884</td>
+                                        <td>31%</td>
+                                        <td>813</td>
+                                        <td>13%</td>
+                                        <td>840</td>
+                                        <td>14%</td>
+                                        <td>609</td>
+                                        <td>10%</td>
+                                        <td>416</td>
+                                        <td>7%</td>
+                                        <td>209</td>
+                                        <td>3%</td>
+                                        <td>204</td>
+                                        <td>3%</td>
+                                        <td>1088</td>
+                                        <td>18%</td>
+                                        <td>6.063</td>
+                                                                 </tr>                            
+                                                                <tr>
+                                                                                                    <td class="tdAlignLeft">NORTE</td>
+                                                    <td class="tdAlignLeft">12</td>
+                                                    <td class="tdAlignLeft" colspan="1">AC</td>
+                                                                                                            <td>4</td>
+                                                        <td>31%</td>
+                                                        <td>4</td>
+                                                        <td>31%</td>
+                                                        <td>2</td>
+                                                        <td>15%</td>
+                                                        <td>1</td>
+                                                        <td>8%</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>2</td>
+                                                        <td>15%</td>
+                                                        <td>13</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORTE</td>
+                                                    <td class="tdAlignLeft">13</td>
+                                                    <td class="tdAlignLeft" colspan="1">AM</td>
+                                                                                                            <td>205</td>
+                                                        <td>30%</td>
+                                                        <td>111</td>
+                                                        <td>16%</td>
+                                                        <td>120</td>
+                                                        <td>18%</td>
+                                                        <td>117</td>
+                                                        <td>17%</td>
+                                                        <td>19</td>
+                                                        <td>3%</td>
+                                                        <td>31</td>
+                                                        <td>5%</td>
+                                                        <td>17</td>
+                                                        <td>3%</td>
+                                                        <td>59</td>
+                                                        <td>9%</td>
+                                                        <td>679</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORTE</td>
+                                                    <td class="tdAlignLeft">16</td>
+                                                    <td class="tdAlignLeft" colspan="1">AP</td>
+                                                                                                            <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>1</td>
+                                                        <td>33%</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>2</td>
+                                                        <td>67%</td>
+                                                        <td>3</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORTE</td>
+                                                    <td class="tdAlignLeft">15</td>
+                                                    <td class="tdAlignLeft" colspan="1">PA</td>
+                                                                                                            <td>1029</td>
+                                                        <td>29%</td>
+                                                        <td>653</td>
+                                                        <td>19%</td>
+                                                        <td>654</td>
+                                                        <td>19%</td>
+                                                        <td>440</td>
+                                                        <td>13%</td>
+                                                        <td>223</td>
+                                                        <td>6%</td>
+                                                        <td>124</td>
+                                                        <td>4%</td>
+                                                        <td>89</td>
+                                                        <td>3%</td>
+                                                        <td>281</td>
+                                                        <td>8%</td>
+                                                        <td>3.493</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORTE</td>
+                                                    <td class="tdAlignLeft">11</td>
+                                                    <td class="tdAlignLeft" colspan="1">RO</td>
+                                                                                                            <td>1</td>
+                                                        <td>25%</td>
+                                                        <td>1</td>
+                                                        <td>25%</td>
+                                                        <td>1</td>
+                                                        <td>25%</td>
+                                                        <td>1</td>
+                                                        <td>25%</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>4</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORTE</td>
+                                                    <td class="tdAlignLeft">14</td>
+                                                    <td class="tdAlignLeft" colspan="1">RR</td>
+                                                                                                            <td>2</td>
+                                                        <td>100%</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>0</td>
+                                                        <td>-</td>
+                                                        <td>2</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">NORTE</td>
+                                                    <td class="tdAlignLeft">17</td>
+                                                    <td class="tdAlignLeft" colspan="1">TO</td>
+                                                                                                            <td>92</td>
+                                                        <td>33%</td>
+                                                        <td>45</td>
+                                                        <td>16%</td>
+                                                        <td>44</td>
+                                                        <td>16%</td>
+                                                        <td>38</td>
+                                                        <td>14%</td>
+                                                        <td>19</td>
+                                                        <td>7%</td>
+                                                        <td>7</td>
+                                                        <td>3%</td>
+                                                        <td>8</td>
+                                                        <td>3%</td>
+                                                        <td>22</td>
+                                                        <td>8%</td>
+                                                        <td>275</td>
+                                                                                                    </tr>
+                                                        
+                        <tr class="backgroundColorCinza" style="font-weight: bold;">
+                                <!--<td class="tdAlignLeft">1</td>-->
+                                <td class="tdAlignLeft" colspan="3">
+                                TOTAL REGI&Atilde;O NORTE                                </td>
+                                                                        <td>1333</td>
+                                        <td>30%</td>
+                                        <td>814</td>
+                                        <td>18%</td>
+                                        <td>822</td>
+                                        <td>18%</td>
+                                        <td>597</td>
+                                        <td>13%</td>
+                                        <td>261</td>
+                                        <td>6%</td>
+                                        <td>162</td>
+                                        <td>4%</td>
+                                        <td>114</td>
+                                        <td>3%</td>
+                                        <td>366</td>
+                                        <td>8%</td>
+                                        <td>4.469</td>
+                                                                 </tr>                            
+                                                                <tr>
+                                                                                                    <td class="tdAlignLeft">SUDESTE</td>
+                                                    <td class="tdAlignLeft">32</td>
+                                                    <td class="tdAlignLeft" colspan="1">ES</td>
+                                                                                                            <td>35</td>
+                                                        <td>28%</td>
+                                                        <td>19</td>
+                                                        <td>15%</td>
+                                                        <td>14</td>
+                                                        <td>11%</td>
+                                                        <td>21</td>
+                                                        <td>17%</td>
+                                                        <td>4</td>
+                                                        <td>3%</td>
+                                                        <td>8</td>
+                                                        <td>6%</td>
+                                                        <td>5</td>
+                                                        <td>4%</td>
+                                                        <td>21</td>
+                                                        <td>17%</td>
+                                                        <td>127</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">SUDESTE</td>
+                                                    <td class="tdAlignLeft">31</td>
+                                                    <td class="tdAlignLeft" colspan="1">MG</td>
+                                                                                                            <td>524</td>
+                                                        <td>11%</td>
+                                                        <td>478</td>
+                                                        <td>10%</td>
+                                                        <td>657</td>
+                                                        <td>14%</td>
+                                                        <td>683</td>
+                                                        <td>14%</td>
+                                                        <td>412</td>
+                                                        <td>9%</td>
+                                                        <td>372</td>
+                                                        <td>8%</td>
+                                                        <td>360</td>
+                                                        <td>8%</td>
+                                                        <td>1278</td>
+                                                        <td>27%</td>
+                                                        <td>4.764</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">SUDESTE</td>
+                                                    <td class="tdAlignLeft">33</td>
+                                                    <td class="tdAlignLeft" colspan="1">RJ</td>
+                                                                                                            <td>264</td>
+                                                        <td>26%</td>
+                                                        <td>150</td>
+                                                        <td>15%</td>
+                                                        <td>167</td>
+                                                        <td>16%</td>
+                                                        <td>115</td>
+                                                        <td>11%</td>
+                                                        <td>63</td>
+                                                        <td>6%</td>
+                                                        <td>57</td>
+                                                        <td>6%</td>
+                                                        <td>24</td>
+                                                        <td>2%</td>
+                                                        <td>178</td>
+                                                        <td>17%</td>
+                                                        <td>1.018</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">SUDESTE</td>
+                                                    <td class="tdAlignLeft">35</td>
+                                                    <td class="tdAlignLeft" colspan="1">SP</td>
+                                                                                                            <td>1828</td>
+                                                        <td>23%</td>
+                                                        <td>1151</td>
+                                                        <td>14%</td>
+                                                        <td>1439</td>
+                                                        <td>18%</td>
+                                                        <td>1061</td>
+                                                        <td>13%</td>
+                                                        <td>477</td>
+                                                        <td>6%</td>
+                                                        <td>355</td>
+                                                        <td>4%</td>
+                                                        <td>321</td>
+                                                        <td>4%</td>
+                                                        <td>1403</td>
+                                                        <td>17%</td>
+                                                        <td>8.035</td>
+                                                                                                    </tr>
+                                                        
+                        <tr class="backgroundColorCinza" style="font-weight: bold;">
+                                <!--<td class="tdAlignLeft">3</td>-->
+                                <td class="tdAlignLeft" colspan="3">
+                                TOTAL REGI&Atilde;O SUDESTE                                </td>
+                                                                        <td>2651</td>
+                                        <td>19%</td>
+                                        <td>1798</td>
+                                        <td>13%</td>
+                                        <td>2277</td>
+                                        <td>16%</td>
+                                        <td>1880</td>
+                                        <td>13%</td>
+                                        <td>956</td>
+                                        <td>7%</td>
+                                        <td>792</td>
+                                        <td>6%</td>
+                                        <td>710</td>
+                                        <td>5%</td>
+                                        <td>2880</td>
+                                        <td>21%</td>
+                                        <td>13.944</td>
+                                                                 </tr>                            
+                                                                <tr>
+                                                                                                    <td class="tdAlignLeft">SUL</td>
+                                                    <td class="tdAlignLeft">41</td>
+                                                    <td class="tdAlignLeft" colspan="1">PR</td>
+                                                                                                            <td>694</td>
+                                                        <td>29%</td>
+                                                        <td>319</td>
+                                                        <td>14%</td>
+                                                        <td>398</td>
+                                                        <td>17%</td>
+                                                        <td>309</td>
+                                                        <td>13%</td>
+                                                        <td>110</td>
+                                                        <td>5%</td>
+                                                        <td>86</td>
+                                                        <td>4%</td>
+                                                        <td>56</td>
+                                                        <td>2%</td>
+                                                        <td>387</td>
+                                                        <td>16%</td>
+                                                        <td>2.359</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">SUL</td>
+                                                    <td class="tdAlignLeft">43</td>
+                                                    <td class="tdAlignLeft" colspan="1">RS</td>
+                                                                                                            <td>216</td>
+                                                        <td>28%</td>
+                                                        <td>119</td>
+                                                        <td>15%</td>
+                                                        <td>107</td>
+                                                        <td>14%</td>
+                                                        <td>90</td>
+                                                        <td>11%</td>
+                                                        <td>34</td>
+                                                        <td>4%</td>
+                                                        <td>26</td>
+                                                        <td>3%</td>
+                                                        <td>20</td>
+                                                        <td>3%</td>
+                                                        <td>173</td>
+                                                        <td>22%</td>
+                                                        <td>785</td>
+                                                                                                    </tr>
+                                                                                    <tr>
+                                                                                                    <td class="tdAlignLeft">SUL</td>
+                                                    <td class="tdAlignLeft">42</td>
+                                                    <td class="tdAlignLeft" colspan="1">SC</td>
+                                                                                                            <td>191</td>
+                                                        <td>22%</td>
+                                                        <td>113</td>
+                                                        <td>13%</td>
+                                                        <td>127</td>
+                                                        <td>14%</td>
+                                                        <td>118</td>
+                                                        <td>13%</td>
+                                                        <td>94</td>
+                                                        <td>11%</td>
+                                                        <td>72</td>
+                                                        <td>8%</td>
+                                                        <td>43</td>
+                                                        <td>5%</td>
+                                                        <td>128</td>
+                                                        <td>14%</td>
+                                                        <td>886</td>
+                                                                                                    </tr>
+                                                        
+                        <tr class="backgroundColorCinza" style="font-weight: bold;">
+                                <!--<td class="tdAlignLeft">4</td>-->
+                                <td class="tdAlignLeft" colspan="3">
+                                TOTAL REGI&Atilde;O SUL                                </td>
+                                                                        <td>1101</td>
+                                        <td>27%</td>
+                                        <td>551</td>
+                                        <td>14%</td>
+                                        <td>632</td>
+                                        <td>16%</td>
+                                        <td>517</td>
+                                        <td>13%</td>
+                                        <td>238</td>
+                                        <td>6%</td>
+                                        <td>184</td>
+                                        <td>5%</td>
+                                        <td>119</td>
+                                        <td>3%</td>
+                                        <td>688</td>
+                                        <td>17%</td>
+                                        <td>4.030</td>
+                                                                 </tr>                            
+                                    <tr class="backgroundColorCinza" style="font-weight: bold;">
+                    <td class="tdAlignLeft" colspan="3">
+                    TOTAL BRASIL
+                    </td>                        
+                                                <td>8958</td>
+                            <td>25%</td>
+                            <td>4985</td>
+                            <td>14%</td>
+                            <td>5694</td>
+                            <td>16%</td>
+                            <td>4526</td>
+                            <td>13%</td>
+                            <td>2316</td>
+                            <td>6%</td>
+                            <td>1693</td>
+                            <td>5%</td>
+                            <td>1432</td>
+                            <td>4%</td>
+                            <td>6240</td>
+                            <td>17%</td>
+                            <td>35.844</td>
+                                            </tr>
+                        </tbody>           
+        </table>
+        <br />
+                <br /><br />
+        <strong>TOTAL ESTADO</strong>: Corresponde aos dados dos munic&iacute;pios em cada estado.<br />
+        <strong>TOTAL REGI&Atilde;O</strong>: Corresponde aos dados dos munic&iacute;pios em cada regi&atilde;o.<br />
+        <strong>TOTAL BRASIL</strong>: Corresponde aos dados dos munic&iacute;pios no Brasil.<br /><br />
+        <span style="font-style: italic; font-family: Arial; font-size: 11px;">
+            Fonte: MS/SAS/DAB/N&uacute;cleo de Tecnologia da Informa&ccedil;&atilde;o - NTI
+
+            <br /><br />
+            
+
+            Aten&ccedil;&atilde;o: Todos os campos selecionados excede o limite de impress&atilde;o no papel A4.<br />
+            Para imprimir configure a p&aacute;gina:<br />
+            1) Formato paisagem;<br />
+            2) Margens (esquerda, direita, superior, inferior): 1, 1, 1, 1.<br />
+        </span>
+
+        <br /><br />
+
+                
+        <div style="text-align: center">
+            <input type="button" name="exportar" id="exportar" value="Exportar para Excel" onclick="window.location = 'relatorio-cons-alim.view.php?nuAno2014=2011&nuMes=a:1:{i:0;s:2:*99*;}&tpRelatorio=3&tpFiltro=E&coRegiao=99&coUfIbge=99&coMunicipioIbge=&TP_RELATORIO=6&MENOR_6_MESES=&ENTRE_6_2_ANOS=&ENTRE_2_5_ANOS=&NU_QUESTAO=17&MAIOR_5_ANOS=s:1:*5*;&OPCOES_MAIOR_5_ANOS=&ds_sexo3=1&ds_raca_cor3=99&CO_POVO_COMUNIDADE3=TODOS&CO_ESCOLARIDADE3=TODOS&PROGRAMA=&CO_GRUPO=&tpAbrangenciaEas=&coVisualizacao=2'" />&nbsp;  
+            
+            <input type="button" name="Voltar" id="Voltar" value="Voltar" onclick="window.location = 'relatorios.php'" />&nbsp;
+
+        </div>
+
+        <br />&nbsp;
+    </body>
+    

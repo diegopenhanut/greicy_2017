@@ -1,0 +1,62 @@
+,,,,,,,,,,,,,,,,,,,
+MS/SAS/DAB/Núcleo de Tecnologia da Informação - NTI,,,,,,,,,,,,,,,,,,,
+"Relatório do Consumo Alimentar por período, fase do ciclo da vida (de 2008 a 2014).",,,,,,,,,,,,,,,,,,,
+Abrangência: Região (TODOS) - Estado (TODOS),,,,,,,,,,,,,,,,,,,
+Competência: Ano: 2010 - Mês: TODOS,,,,,,,,,,,,,,,,,,,
+Faixa Etária: Gestantes (Adolescentes e Adultas),,,,,,,,,,,,,,,,,,,
+Sexo: TODOS,,,,,,,,,,,,,,,,,,,
+Raça e Cor: TODOS,,,,,,,,,,,,,,,,,,,
+Povo e Comunidade: TODOS,,,,,,,,,,,,,,,,,,,
+Escolaridade: TODOS,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Abrangência Estadual,,,FREQUÊNCIA DE CONSUMO - Feijão,,,,,,,,,,,,,,,,Total de indivíduos
+Região,Código UF,UF,,,,,,,,,,,,,,,,,avaliados
+,,,Não consumiu nos últimos sete dias,,1 dia nos últimos sete dias,,2 dias nos últimos sete dias,,3 dias nos últimos sete dias,,4 dias nos últimos sete dias,,5 dias nos últimos sete dias,,6 dias nos últimos sete dias,,Todos os últimos sete dias,,
+,,,n,%,n,%,n,%,n,%,n,%,n,%,n,%,n,%,
+CENTRO-OESTE,53,DF,33,11%,13,4%,15,5%,18,6%,13,4%,11,4%,8,3%,196,64%,307
+CENTRO-OESTE,52,GO,23,4%,11,2%,11,2%,18,3%,20,3%,17,3%,20,3%,491,80%,611
+CENTRO-OESTE,50,MS,58,8%,27,4%,35,5%,34,5%,22,3%,25,3%,15,2%,531,71%,747
+CENTRO-OESTE,51,MT,193,10%,97,5%,66,3%,60,3%,52,3%,48,2%,38,2%,1413,72%,1967
+TOTAL REGIÃO CENTRO-OESTE,,,307,8%,148,4%,127,3%,130,4%,107,3%,101,3%,81,2%,2631,72%,3632
+NORDESTE,27,AL,22,3%,17,3%,17,3%,12,2%,7,1%,12,2%,15,2%,537,84%,639
+NORDESTE,29,BA,85,5%,46,3%,75,5%,51,3%,35,2%,44,3%,67,4%,1242,76%,1645
+NORDESTE,23,CE,27,6%,19,4%,27,6%,26,6%,7,2%,20,4%,16,4%,315,69%,457
+NORDESTE,21,MA,0,-,10,23%,4,9%,2,5%,2,5%,3,7%,2,5%,21,48%,44
+NORDESTE,25,PB,14,5%,10,3%,11,4%,7,2%,7,2%,8,3%,4,1%,241,80%,302
+NORDESTE,26,PE,4,5%,2,3%,2,3%,2,3%,4,5%,1,1%,1,1%,60,79%,76
+NORDESTE,22,PI,18,5%,7,2%,14,4%,13,4%,12,4%,12,4%,11,3%,249,74%,336
+NORDESTE,24,RN,0,-,2,8%,2,8%,0,-,3,13%,2,8%,1,4%,14,58%,24
+NORDESTE,28,SE,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0
+TOTAL REGIÃO NORDESTE,,,170,5%,113,3%,152,4%,113,3%,77,2%,102,3%,117,3%,2679,76%,3523
+NORTE,12,AC,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0
+NORTE,13,AM,35,11%,82,25%,69,21%,62,19%,36,11%,10,3%,3,1%,27,8%,324
+NORTE,16,AP,0,-,1,17%,4,67%,0,-,0,-,0,-,0,-,1,17%,6
+NORTE,15,PA,297,12%,245,10%,268,11%,217,9%,100,4%,75,3%,97,4%,1218,48%,2517
+NORTE,11,RO,0,-,0,-,0,-,0,-,0,-,0,-,0,-,2,100%,2
+NORTE,14,RR,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0,-,0
+NORTE,17,TO,4,7%,2,4%,2,4%,5,9%,3,5%,2,4%,2,4%,36,64%,56
+TOTAL REGIÃO NORTE,,,336,12%,330,11%,343,12%,284,10%,139,5%,87,3%,102,4%,1284,44%,2905
+SUDESTE,32,ES,10,15%,0,-,1,2%,2,3%,4,6%,2,3%,1,2%,45,69%,65
+SUDESTE,31,MG,147,4%,86,2%,136,3%,114,3%,227,6%,271,7%,323,8%,2813,68%,4117
+SUDESTE,33,RJ,63,8%,25,3%,33,4%,33,4%,18,2%,17,2%,8,1%,595,75%,792
+SUDESTE,35,SP,521,10%,198,4%,216,4%,209,4%,145,3%,115,2%,145,3%,3512,69%,5061
+TOTAL REGIÃO SUDESTE,,,741,7%,309,3%,386,4%,358,4%,394,4%,405,4%,477,5%,6965,69%,10035
+SUL,41,PR,99,9%,48,4%,59,5%,39,4%,31,3%,53,5%,56,5%,700,65%,1085
+SUL,43,RS,91,8%,84,8%,112,10%,84,8%,60,6%,66,6%,33,3%,544,51%,1074
+SUL,42,SC,137,18%,331,43%,60,8%,36,5%,24,3%,14,2%,26,3%,150,19%,778
+TOTAL REGIÃO SUL,,,327,11%,463,16%,231,8%,159,5%,115,4%,133,5%,115,4%,1394,47%,2937
+TOTAL BRASIL,,,1881,8%,1363,6%,1239,5%,1044,5%,832,4%,828,4%,892,4%,14953,65%,23032
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+TOTAL ESTADO: Corresponde aos dados dos municípios em cada estado.,,,,,,,,,,,,,,,,,,,
+TOTAL REGIÃO: Corresponde aos dados dos municípios em cada região.,,,,,,,,,,,,,,,,,,,
+TOTAL BRASIL: Corresponde aos dados dos municípios no Brasil.,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Fonte: MS/SAS/DAB/Núcleo de Tecnologia da Informação - NTI,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Atenção: Todos os campos selecionados excede o limite de impressão no papel A4.,,,,,,,,,,,,,,,,,,,
+Para imprimir configure a página:,,,,,,,,,,,,,,,,,,,
+1) Formato paisagem;,,,,,,,,,,,,,,,,,,,
+"2) Margens (esquerda, direita, superior, inferior): 1, 1, 1, 1.",,,,,,,,,,,,,,,,,,,

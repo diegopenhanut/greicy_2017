@@ -1,0 +1,62 @@
+,,,,,,,,,,,,,,,,,,,
+MS/SAS/DAB/Núcleo de Tecnologia da Informação - NTI,,,,,,,,,,,,,,,,,,,
+"Relatório do Consumo Alimentar por período, fase do ciclo da vida (de 2008 a 2014).",,,,,,,,,,,,,,,,,,,
+Abrangência: Região (TODOS) - Estado (TODOS),,,,,,,,,,,,,,,,,,,
+Competência: Ano: 2011 - Mês: TODOS,,,,,,,,,,,,,,,,,,,
+Faixa Etária: Gestantes (Adolescentes e Adultas),,,,,,,,,,,,,,,,,,,
+Sexo: TODOS,,,,,,,,,,,,,,,,,,,
+Raça e Cor: TODOS,,,,,,,,,,,,,,,,,,,
+Povo e Comunidade: TODOS,,,,,,,,,,,,,,,,,,,
+Escolaridade: TODOS,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Abrangência Estadual,,,FREQUÊNCIA DE CONSUMO - Bolachas/biscoitos salgados ou salgadinhos de pacote,,,,,,,,,,,,,,,,Total de indivíduos
+Região,Código UF,UF,,,,,,,,,,,,,,,,,avaliados
+,,,Não consumiu nos últimos sete dias,,1 dia nos últimos sete dias,,2 dias nos últimos sete dias,,3 dias nos últimos sete dias,,4 dias nos últimos sete dias,,5 dias nos últimos sete dias,,6 dias nos últimos sete dias,,Todos os últimos sete dias,,
+,,,n,%,n,%,n,%,n,%,n,%,n,%,n,%,n,%,
+CENTRO-OESTE,53,DF,332,28%,163,14%,160,13%,140,12%,54,5%,42,4%,24,2%,281,23%,1196
+CENTRO-OESTE,52,GO,284,32%,137,15%,113,13%,131,15%,77,9%,43,5%,14,2%,99,11%,898
+CENTRO-OESTE,50,MS,642,31%,391,19%,300,14%,204,10%,106,5%,87,4%,64,3%,281,14%,2075
+CENTRO-OESTE,51,MT,957,30%,532,17%,455,14%,356,11%,165,5%,106,3%,93,3%,504,16%,3168
+TOTAL REGIÃO CENTRO-OESTE,,,2215,30%,1223,17%,1028,14%,831,11%,402,5%,278,4%,195,3%,1165,16%,7337
+NORDESTE,27,AL,145,16%,90,10%,112,13%,112,13%,72,8%,49,6%,35,4%,265,30%,880
+NORDESTE,29,BA,678,28%,395,16%,366,15%,257,11%,133,5%,82,3%,74,3%,438,18%,2423
+NORDESTE,23,CE,252,26%,114,12%,155,16%,105,11%,54,5%,54,5%,44,4%,207,21%,985
+NORDESTE,21,MA,11,15%,5,7%,12,17%,15,21%,4,6%,5,7%,3,4%,17,24%,72
+NORDESTE,25,PB,69,12%,39,7%,78,14%,147,26%,65,12%,39,7%,13,2%,109,19%,559
+NORDESTE,26,PE,67,18%,35,10%,37,10%,30,8%,23,6%,11,3%,18,5%,147,40%,368
+NORDESTE,22,PI,160,28%,124,22%,82,14%,48,8%,42,7%,39,7%,27,5%,48,8%,570
+NORDESTE,24,RN,42,22%,24,13%,30,16%,27,14%,8,4%,9,5%,7,4%,43,23%,190
+NORDESTE,28,SE,0,-,2,13%,6,40%,2,13%,0,-,0,-,0,-,5,33%,15
+TOTAL REGIÃO NORDESTE,,,1424,23%,828,14%,878,14%,743,12%,401,7%,288,5%,221,4%,1279,21%,6062
+NORTE,12,AC,4,31%,4,31%,0,-,1,8%,0,-,0,-,0,-,4,31%,13
+NORTE,13,AM,183,27%,97,14%,126,19%,105,15%,59,9%,45,7%,21,3%,43,6%,679
+NORTE,16,AP,0,-,0,-,2,67%,0,-,0,-,0,-,0,-,1,33%,3
+NORTE,15,PA,1002,29%,542,16%,512,15%,342,10%,181,5%,105,3%,92,3%,715,20%,3491
+NORTE,11,RO,2,50%,0,-,2,50%,0,-,0,-,0,-,0,-,0,-,4
+NORTE,14,RR,1,50%,0,-,1,50%,0,-,0,-,0,-,0,-,0,-,2
+NORTE,17,TO,85,31%,44,16%,38,14%,30,11%,13,5%,9,3%,5,2%,51,19%,275
+TOTAL REGIÃO NORTE,,,1277,29%,687,15%,681,15%,478,11%,253,6%,159,4%,118,3%,814,18%,4467
+SUDESTE,32,ES,40,31%,19,15%,16,13%,13,10%,5,4%,5,4%,2,2%,27,21%,127
+SUDESTE,31,MG,1333,28%,841,18%,723,15%,583,12%,323,7%,167,4%,132,3%,659,14%,4761
+SUDESTE,33,RJ,323,32%,158,16%,129,13%,99,10%,57,6%,36,4%,22,2%,194,19%,1018
+SUDESTE,35,SP,2125,26%,1430,18%,1157,14%,839,10%,360,4%,293,4%,225,3%,1607,20%,8036
+TOTAL REGIÃO SUDESTE,,,3821,27%,2448,18%,2025,15%,1534,11%,745,5%,501,4%,381,3%,2487,18%,13942
+SUL,41,PR,801,34%,395,17%,342,14%,267,11%,103,4%,64,3%,49,2%,341,14%,2362
+SUL,43,RS,229,29%,119,15%,118,15%,80,10%,29,4%,31,4%,18,2%,161,21%,785
+SUL,42,SC,282,32%,172,19%,127,14%,98,11%,46,5%,28,3%,20,2%,113,13%,886
+TOTAL REGIÃO SUL,,,1312,33%,686,17%,587,15%,445,11%,178,4%,123,3%,87,2%,615,15%,4033
+TOTAL BRASIL,,,10049,28%,5872,16%,5199,15%,4031,11%,1979,6%,1349,4%,1002,3%,6360,18%,35841
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+TOTAL ESTADO: Corresponde aos dados dos municípios em cada estado.,,,,,,,,,,,,,,,,,,,
+TOTAL REGIÃO: Corresponde aos dados dos municípios em cada região.,,,,,,,,,,,,,,,,,,,
+TOTAL BRASIL: Corresponde aos dados dos municípios no Brasil.,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Fonte: MS/SAS/DAB/Núcleo de Tecnologia da Informação - NTI,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Atenção: Todos os campos selecionados excede o limite de impressão no papel A4.,,,,,,,,,,,,,,,,,,,
+Para imprimir configure a página:,,,,,,,,,,,,,,,,,,,
+1) Formato paisagem;,,,,,,,,,,,,,,,,,,,
+"2) Margens (esquerda, direita, superior, inferior): 1, 1, 1, 1.",,,,,,,,,,,,,,,,,,,
